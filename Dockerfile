@@ -1,6 +1,6 @@
-FROM ichwill100/flask-sample-demo:latest
+FROM isauraruiz/flask-sample-demo:latest
 
-MAINTAINER Your Name "saul.vaca@amaris.com"
+MAINTAINER Your Name "isaura.ruiz@amaris.com"
 
 RUN apt-get update -y && \
     apt-get install -y python-pip python-dev build-essential
